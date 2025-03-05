@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme{
+    --font-inter: "Inter", serif;
+    --font-Hanalei: "Hanalei Fill", system-ui;
+    --font-Handlee: "Handlee", cursive;
+}
