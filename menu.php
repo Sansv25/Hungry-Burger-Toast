@@ -39,8 +39,8 @@ if ($err) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/output.css">
-    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="aos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Handlee&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -59,7 +59,7 @@ if ($err) {
         </div>
     <?php endforeach; ?>
 </div>
-<script src="node_modules/aos/dist/aos.js"></script>
+<script src="aos.js"></script>
 <script>
         AOS.init();
     </script>
